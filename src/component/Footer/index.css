@@ -1,0 +1,151 @@
+.footer {
+  background-color: black;
+  color: white;
+  height: 369px;
+  display: flex;
+  flex-direction: row;
+}
+
+.container {
+  width: 100%;
+  margin: 0 80px;
+}
+
+.top-wrapper {
+  height: 185px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px white solid;
+}
+
+.footer-left {
+  color: white;
+  text-decoration: none;
+}
+.footer ul {
+  list-style: none;
+  display: flex;
+  padding: 0px;
+  font-weight: bold;
+}
+
+.footer li {
+  margin-right: 81px;
+  cursor: pointer;
+}
+
+.footer-right {
+  text-align: center;
+}
+.footer-right p {
+  margin: 0;
+  font-weight: lighter;
+}
+
+.bottom-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 34px;
+}
+
+.bottom-logo a {
+  color: white;
+}
+.footer-copyright p {
+  margin: 5px 0;
+  text-align: center;
+}
+
+.footer-logo {
+  width: 180px;
+}
+
+@media screen and (min-width: 200px) and (max-width: 768px) {
+  .footer {
+    height: 300px;
+  }
+  .footer-left {
+    text-align: center;
+  }
+
+  .footer li {
+    margin: 0px 30px;
+    text-align: center;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 391px) and (max-width: 414px) {
+  .container {
+    width: 414px;
+    margin: 0 15px;
+  }
+
+  .footer {
+    height: 340px;
+  }
+
+  .top-wrapper {
+    margin-top: 40px;
+    flex-direction: column-reverse;
+  }
+  .footer ul {
+    flex-direction: column;
+    width: 100%;
+    margin: 0px 0px;
+    font-size: 12px;
+  }
+  .footer li {
+    margin: 5px;
+  }
+  .top-wrapper {
+    height: 200px;
+  }
+  .footer-logo {
+    width: 80px;
+  }
+  .bottom-logo {
+    margin-top: 15px;
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 390px) {
+  .container {
+    width: 390px;
+    margin: 0 15px;
+  }
+
+  .footer {
+    height: 340px;
+  }
+
+  .top-wrapper {
+    margin-top: 40px;
+    flex-direction: column-reverse;
+  }
+  .footer ul {
+    flex-direction: column;
+    width: 100%;
+    margin: 0px 0px;
+    font-size: 12px;
+  }
+  .footer li {
+    margin: 5px;
+  }
+  .top-wrapper {
+    height: 200px;
+  }
+  .footer-logo {
+    width: 80px;
+  }
+  .bottom-logo {
+    margin-top: 15px;
+  }
+}
